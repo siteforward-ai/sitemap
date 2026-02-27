@@ -1,0 +1,46 @@
+{
+  "name": "@siteforward/sitemap",
+  "version": "1.0.0",
+  "description": "Sitemap generator for SSG sites — scans dist/ HTML files, computes checksums to preserve lastmod dates, and outputs sitemap.xml",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "bin": {
+    "generate-sitemap": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist/",
+    "templates/",
+    "README.md"
+  ],
+  "keywords": [
+    "sitemap",
+    "ssg",
+    "static-site",
+    "seo"
+  ],
+  "author": "SiteForward AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siteforward-ai/sitemap.git"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.2",
+    "typescript": "^5.9.3"
+  }
+}
