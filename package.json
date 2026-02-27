@@ -34,6 +34,9 @@
     "static-site",
     "seo"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "SiteForward AI",
   "license": "MIT",
   "repository": {
