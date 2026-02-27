@@ -17,6 +17,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
+    "test": "node --import tsx/esm --test test/priority.test.ts test/checksum.test.ts test/cache.test.ts test/scan.test.ts test/generate.test.ts",
     "prepublishOnly": "npm run build"
   },
   "engines": {
@@ -41,6 +42,7 @@
   },
   "devDependencies": {
     "@types/node": "^25.3.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   }
 }
