@@ -1,6 +1,6 @@
 {
   "name": "@siteforward/sitemap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sitemap generator for SSG sites — scans dist/ HTML files, computes checksums to preserve lastmod dates, and outputs sitemap.xml",
   "type": "module",
   "main": "./dist/index.js",

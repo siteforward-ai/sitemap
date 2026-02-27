@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/siteforward-ai/sitemap/compare/v1.0.0...v1.0.1) (2026-02-27)
+
+
+### Bug Fixes
+
+* set executable bit on dist/cli.js after build ([f1123e3](https://github.com/siteforward-ai/sitemap/commit/f1123e3140be268a5c705375463b4bd0ed040715))
+
 # 1.0.0 (2026-02-27)
 
 
