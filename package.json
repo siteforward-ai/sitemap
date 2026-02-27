@@ -15,7 +15,7 @@
     "generate-sitemap": "./dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && chmod +x dist/cli.js",
     "build:watch": "tsc --watch",
     "test": "node --import tsx/esm --test test/priority.test.ts test/checksum.test.ts test/cache.test.ts test/scan.test.ts test/generate.test.ts",
     "prepublishOnly": "npm run build"
